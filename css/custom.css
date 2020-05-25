@@ -22789,8 +22789,8 @@
 @media (min-width: 690px) {
   .example-image {
     width: 330px;
-    max-height: 662px;
-    border-radius: 50px;
+    max-height: 900px;
+    border-radius: 20px;
   }
 }
 
