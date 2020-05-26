@@ -98,7 +98,7 @@
                     <li class="menu-item"><a href="#"> Support</a></li> -->
                   </ul>
                   <div class="header-btns justify-content-end">
-                    <a href="#" class="btn btn--primary btn--medium">Sign Up</a>
+                    <a href="#signup-section" class="btn btn--primary btn--medium">Sign Up</a>
                   </div>
                 </div>
                 
@@ -207,7 +207,7 @@
             <!-- Header buttons start -->
             <div class="header-btns offcanvas">
               <div class="header-btns justify-content-end">
-                <a href="#" class="btn btn--primary btn--medium">Sign Up</a>
+                <a href="#signup-section" class="btn btn--primary btn--medium">Sign Up</a>
               </div>
             </div>
             <!-- Header buttons end -->
@@ -222,7 +222,8 @@
         <div class="row">
           <div class="col-md-8 col-lg-7 col-xl-6  pb-lg--90 pb-xl--0 order-2 order-md-1">
             <div class="hero-content">
-              <h1 class="title mb--30">
+
+              <h1 class="title mb--40">
                 Buy or sell your clothes on Upstyle.
               </h1>
               <p>
@@ -230,13 +231,24 @@
                 Create your own store with your no longer wanted clothes.
               </p>
             </div>
-
-            <div class="hero-btns mt--40">
+            <form action="https://send.pageclip.co/FxSzHQdEdwqL2OaRRMlEux7Zrs7MwQuG/InterestForm" class="pageclip-form" method="post">
+              <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+              <div class="cta-btns mb--15">
+                    <input type="text" class="signup-input" name="name" placeholder="Name" />
+                    <br>
+                    <input type="email" class="signup-input" name="email" placeholder="email@example.com" />
+              </div>
+              <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+              <button type="submit" class="pageclip-form__submit apple btn btn--primary btn--large">
+                <span>Sign Up</span>
+              </button>
+            </form>
+            <!-- <div class="hero-btns mt--40">
               <a href="#" class="android btn btn--primary btn--large mr--15"><i class="fab fa-android"></i><span
                   class="p2">Download for Android</span></a>
               <a href="#" class="apple btn btn--primary btn--large"><i class="fab fa-apple"></i><span
                   class="p2">Download for iOS</span></a>
-            </div>
+            </div> -->
 
 
 
@@ -336,7 +348,7 @@
 
             <div class="col-sm-10 col-md-7 col-lg-6 offset-md-1 col-xl-5 order-2 order-md-1">
               <div class="badge" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
-                <span>revolve</span>
+                <span>inspired</span>
               </div>
               <div class="content-right-content" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"
                 data-aos-once="true">
@@ -373,7 +385,7 @@
                 <div class="content-widget-wrapper">
                   <div class="content-widget">
                     <div class="widget-icon">
-                      <i class="icon icon-layers-3"></i>
+                      <i class="fas fa-comment-dollar"></i>
                     </div>
 
                     <div class="content">
@@ -387,7 +399,7 @@
 
                   <div class="content-widget">
                     <div class="widget-icon">
-                      <i class="icon icon-layers-3"></i>
+                      <i class="fas fa-tshirt"></i>
                     </div>
 
                     <div class="content">
@@ -519,34 +531,26 @@
 
     <!-- CTA Section -->
 
-    <section class="cta-section position-relative section-padding ">
+    <section id="signup-section" class="cta-section position-relative section-padding ">
       <div class="container">
         <div class="cta-wrapper">
           <div class="cta-icon">
-            <i class="fas fa-download"></i>
+            <i class="fas fa-signature"></i>
           </div>
 
           <h2 class="cta-title h2">Share your email for the Beta</h2>
           <form action="https://send.pageclip.co/FxSzHQdEdwqL2OaRRMlEux7Zrs7MwQuG/InterestForm" class="pageclip-form" method="post">
             <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-            <input type="text" name="name" value="Roscoe Jones" />
-            <input type="email" name="email" value="roscoe@example.com" />
-          
+            <div class="cta-btns mb--15">
+                  <input type="text" class="signup-input" name="name" placeholder="Name" />
+                  <br>
+                  <input type="email" class="signup-input" name="email" placeholder="email@example.com" />
+            </div>
             <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-            <button type="submit" class="pageclip-form__submit">
-              <span>Send</span>
+            <button type="submit" class="pageclip-form__submit apple btn btn--primary btn--large">
+              <span>Sign Up</span>
             </button>
           </form>
-          <div class="cta-btns mb--30">
-            <a href="#" class="android btn btn--primary btn--large"><i class="fab fa-android"></i><span
-                class="p2">Download for Android</span></a>
-            <a href="#" class="apple btn btn--primary btn--large"><i class="fab fa-apple"></i><span class="p2">Download
-                for iOS</span></a>
-          </div>
-          <p>
-            Tell your visitors why they should download your app. <br> Two lines
-            can be enough here.
-          </p>
         </div>
       </div>
       <div class="cta-shape" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
@@ -561,14 +565,14 @@
         <div class="row">
           <div class="col-12 col-lg-1">
             <div class="footer-icon">
-              <i class="fas fa-chess-pawn"></i>
+              <i class="fas fa-store-alt"></i>
             </div>
           </div>
-          <div class="col-lg-5 col-xl-4 col-sm-8 col-11 col-md-6">
+          <div class="col-lg-8 col-xl-8 col-sm-8 col-11 col-md-6">
             <div class="footer-content">
               <p class="p1">
-                Create custom landing pages with Berlin that convert more
-                visitors than any website.
+                 Upstyle is a community-first marketplace where you can bid
+                  on a variety of outfits that your friends are selling.
               </p>
             </div>
           </div>
@@ -576,17 +580,17 @@
           <div class="col-lg-5 offset-lg-1">
             <div class="row">
               <div class="col-lg-6 col-md-4 col-sm-6">
-                <span class="contact-title p1">Office</span>
+                <!-- <span class="contact-title p1">Office</span>
                 <div class="footer-address">
                   <p>359 Hidden Valley Road, NY</p>
-                </div>
+                </div> -->
               </div>
               <div class="col-lg-6 col-md-6 col-sm-6">
-                <span class="contact-title p1">Contacts</span>
+                <!-- <span class="contact-title p1">Contacts</span>
 
                 <div class="footer-address">
                   <p>contact@grayic.com</p>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -595,12 +599,13 @@
         <div class="row align-items-center mt--30 mt-md--50 mt-lg--80  section-padding-top">
           <div class="col-lg-3 col-md-3 col-sm-4 col-8">
             <p class="footer-copyright-text text-lg-left p3">
-              ©2019 All right reserved.
+              ©2020 All right reserved.
             </p>
           </div>
 
           <div class="col-lg-2 col-md-2 offset-md-4 col-sm-4 offset-sm-3 offset-lg-7 offset-xl-6 col-4">
-            <ul class="footer-social-list">
+            <span class="contact-title p1">Based in Chicago</span>
+            <!-- <ul class="footer-social-list">
               <li>
                 <a href="">
                   <i class="icon icon-logo-fb-simple"></i>
@@ -616,7 +621,7 @@
                   <i class="icon icon-google"></i>
                 </a>
               </li>
-            </ul>
+            </ul> -->
           </div>
         </div>
       </div>
